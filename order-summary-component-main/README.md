@@ -24,13 +24,17 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-- Implementation of mobile design: ![Implementation of Mobile design](./solution_pics/Mobile_interface.png)
-- Implementation of desktop design: ![Implementation of Desktop design](./solution_pics/Desktop_interface.png)
+- Implementation of mobile design: 
+![Implementation of Mobile design](./solution_pics/Mobile_interface.png)
+
+
+- Implementation of desktop design: 
+![Implementation of Desktop design](./solution_pics/Desktop_interface.png)
 
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/Joana-cyber/frontendMentor)
+- Solution URL: [solution URL](https://github.com/Joana-cyber/frontendMentor/tree/master/order-summary-component-main)
 <!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
 ## My process
