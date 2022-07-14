@@ -1,0 +1,100 @@
+*::before,
+*::after,
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./images/pattern-background-mobile.svg);
+    margin: 0;
+    padding: 20px 0;
+}
+
+.upper-image{
+    width: 100%;
+    padding: 0 0 0.5rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.container{
+    width: 80%;
+    max-width: 400px;
+    background: white;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 16px;
+    padding: 0 0 80px;
+}
+
+.dark-blue{
+    color:hsl(223, 47%, 23%);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+p, .cancel-order{
+    color:hsl(224, 23%, 55%);
+    font-size: 1rem;
+}
+
+.link{
+    color: hsl(245, 75%, 52%);
+}
+
+.link:hover{
+    text-decoration: none;
+    color: hsl(260, 70%, 52%);
+}
+
+.annual-plan{
+    display: flex;
+    align-items: center;
+    margin: 0 auto 2rem;
+    background: hsl(225, 100%, 98%);
+    width: 95%; 
+    border-radius: 1rem;
+}
+
+.col{
+    width: 100%;
+}
+
+.col + .col{
+    margin-left: 0.8rem;
+}
+
+button{
+    background: hsl(245, 75%, 52%);
+    color: white;
+    border: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 88%;
+    font-size: 1rem;
+}
+
+button:hover{
+    background: hsl(260, 70%, 52%);
+}
+
+.cancel-order{
+    font-weight: 900;
+}
+
+.cancel-order:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media (min-width: 730px) {
+    body{
+        background: url(./images/pattern-background-desktop.svg);
+    }
+}
