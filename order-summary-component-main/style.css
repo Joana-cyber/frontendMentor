@@ -8,6 +8,7 @@ body{
     background: url(./images/pattern-background-mobile.svg);
     margin: 0;
     padding: 20px 0;
+    font-family: "Red Hat Display";
 }
 
 .upper-image{
