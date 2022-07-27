@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(0, 0%, 95%);
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    margin: 10% auto;
+    width: 85%;
+    max-width: 600px;
+    border-color: black;
+    border-radius: 1rem;
+}
+
+.container > div{
+   padding: 2em 3.5em;
+}
+
+.container h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5em;
+}
+
+p{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+}
+
+.card1{
+    background: hsl(31, 77%, 52%);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card2{
+    background: hsl(184, 100%, 22%);
+}
+
+.card3{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.card1 button{
+    color: hsl(31, 77%, 52%);
+}
+
+.card1 button:hover{
+    background: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);;
+}
+
+.card2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+.card2 button:hover{
+    background: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);;
+}
+
+.card3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+.card3 button:hover{
+    background: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);;
+}
+
+button{
+    background: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 0.5em 1.5em;
+    border-radius: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.attribution{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:hsl(184, 100%, 22%);
+}
+
+@media (min-width:900px){
+    body{
+        overflow-y: hidden;
+    }
+
+    .container{
+        display: flex;
+        max-width: 1000px;
+    }
+
+    .container > div{
+        flex: 1;
+        padding: 1.8em 3.5em;
+     }
+
+    .card1{
+        background: hsl(31, 77%, 52%);
+        border-radius: 1rem 0 0 1rem;
+    }
+    
+    .card2{
+        background: hsl(184, 100%, 22%);
+    }
+    
+    .card3{
+        background: hsl(179, 100%, 13%);
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    button{
+        padding: 0.3em 2em;
+        border-radius: 3rem;
+        white-space: nowrap;
+        margin-top: 50%;
+    }
+
+    .attribution{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+}
