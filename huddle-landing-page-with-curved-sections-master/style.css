@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    margin: 5%;
+    align-items: center;
+}
+
+header .logo{
+    width: 40%;
+}
+
+header button{
+    padding: 0.3rem 1.5rem;
+    color: hsl(322, 100%, 66%);
+    border: 2px solid;
+    background: white;
+    border-radius: 1rem;
+}
+
+/* .header-button{
+    justify-self: flex-end;
+} */
+
+.logo + .header-button{
+    margin-left: auto;
+}
